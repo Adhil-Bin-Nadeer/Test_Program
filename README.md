@@ -1,8 +1,8 @@
 # Job Management 
 ### A project to analyze how the backend works. This project has two components <b>HIRE and POST</b> 
 <ul style:"circle" color:"white">
-  <ls>Hire component for hiring the required role. this component do realtime search using the profile expression and the technologies</ls><br><br>
-  <ls>Post component to post the jobs</ls><br><br>
+  <ls><b>Hire component for hiring the required role. this component do realtime search using the profile expression and the technologies</b></ls><br><br>
+  <ls><b>Post component to post the jobs</b></ls><br><br>
   <img src = "https://github.com/Adhil-Bin-Nadeer/Test_Program/blob/main/Images/Screenshot%202025-06-04%20123253.png" height="50%"  width ="75%">
 </ul>
 
