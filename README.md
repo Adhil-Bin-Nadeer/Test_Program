@@ -31,7 +31,7 @@ GeoSensing Test Program is a full-stack job listing application that allows user
 ### Backend Setup
 1. Navigate to the `server` directory:
    ```bash
-   cd GeoSensing_Test_Program/server
+   cd Test_Program/server
    ```
 2. Install dependencies:
    ```bash
@@ -46,7 +46,7 @@ GeoSensing Test Program is a full-stack job listing application that allows user
 ### Frontend Setup
 1. Navigate to the `client` directory:
    ```bash
-   cd GeoSensing_Test_Program/client
+   cd Test_Program/client
    ```
 2. Install dependencies:
    ```bash
