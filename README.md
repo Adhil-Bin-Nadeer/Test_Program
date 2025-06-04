@@ -1,24 +1,74 @@
-# Job Management 
-### A project to analyze how the backend works. This project has two components <b>HIRE and POST</b> 
-<ul style:"circle" color:"white">
-  <ls><b>Hire component for hiring the required role. this component do realtime search using the profile expression and the technologies</b></ls><br><br>
-  <ls><b>Post component to post the jobs</b></ls><br><br>
-  <img src = "https://github.com/Adhil-Bin-Nadeer/Test_Program/blob/main/Images/Screenshot%202025-06-04%20123253.png" height="50%"  width ="75%">
-</ul>
+# GeoSensing Test Program
 
-## Hire
-<img src="https://github.com/Adhil-Bin-Nadeer/Test_Program/blob/main/Images/Screenshot%202025-06-04%20123305.png"  height = "50%"  width = "75%"><br><br>
-###  Sorting the posts using the expression in the search bar
+## Project Description
+GeoSensing Test Program is a full-stack job listing application that allows users to post job openings and search for jobs. The frontend is built with React and styled using Tailwind CSS, while the backend is powered by an Express server connected to a MongoDB database using Mongoose.
 
-<img src="https://github.com/Adhil-Bin-Nadeer/Test_Program/blob/main/Images/Screenshot%202025-06-04%20123318.png" height="50%" width="75%">
+## Features
+- Post new job listings with description, experience, profile, and required technologies.
+- Search and browse job listings with real-time search functionality.
+- Responsive and user-friendly interface using React and Tailwind CSS.
+- RESTful API backend with Express and MongoDB.
 
-## Post
+## Technology Stack
+- Frontend:
+  - React
+  - React Router DOM
+  - Axios
+  - Tailwind CSS
+- Backend:
+  - Node.js
+  - Express
+  - MongoDB
+  - Mongoose
+  - CORS
 
-<img src = "https://github.com/Adhil-Bin-Nadeer/Test_Program/blob/main/Images/Screenshot%202025-06-04%20132635.png" height = "50%" width = "75%">
+## Installation
 
+### Prerequisites
+- Node.js and npm installed
+- MongoDB instance (cloud or local)
 
-## The post reflected in database
-<img src = "https://github.com/Adhil-Bin-Nadeer/Test_Program/blob/main/Images/Screenshot%202025-06-04%20132818.png" height = "50%"  width ="75%">
+### Backend Setup
+1. Navigate to the `server` directory:
+   ```bash
+   cd GeoSensing_Test_Program/server
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Update MongoDB connection string in `server.js` if needed.
+4. Start the backend server:
+   ```bash
+   npm run dev
+   ```
 
+### Frontend Setup
+1. Navigate to the `client` directory:
+   ```bash
+   cd GeoSensing_Test_Program/client
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the frontend development server:
+   ```bash
+   npm start
+   ```
+
+## Usage
+- Open your browser and go to `http://localhost:3000` to access the frontend.
+- Use the "Post Job" page to add new job listings.
+- Use the "Hire" page to search and browse available jobs.
+
+## API Endpoints
+
+- `POST /api/jobs` - Add a new job listing.
+- `GET /api/jobs` - Retrieve all job listings.
+- `GET /api/jobs/search?keyword=your_keyword` - Search job listings by keyword in description, profile, or technologies.
+
+## Screenshots
+Screenshots of the application UI are available in the `Images` folder.
 
 
